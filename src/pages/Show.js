@@ -7,7 +7,7 @@ const Show = () => {
   const [show, setShow] = useState(null);
 
   useEffect(() => {
-    apiGet(`shows/${id}?embed[] = seasons&embed[] = cast`).then(results => {
+    apiGet(`/shows/${id}?embed[] = seasons&embed[] = cast`).then(results => {
       setShow(results);
     });
   }, [id]);
