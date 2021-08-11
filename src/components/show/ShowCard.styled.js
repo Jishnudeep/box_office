@@ -7,6 +7,7 @@ export const StyledShowCard = styled(SearchCard)`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
     a {
       text-decoration-color: #000;
       color: #000;
